@@ -8,6 +8,17 @@
     <TextView android:text="@string/hello_twitter" android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView" />
+<!--header-->
+    <TextView android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_twitter"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="@android:color/black"
+        />
 
     <EditText
         android:layout_width="wrap_content"
