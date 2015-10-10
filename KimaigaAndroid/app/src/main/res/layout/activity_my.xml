@@ -84,7 +84,13 @@
         android:id="@+id/button"
         android:layout_below="@+id/editText2"
         android:layout_alignLeft="@+id/editText2"
-        android:layout_alignStart="@+id/editText2" />
+        android:layout_alignStart="@+id/editText2"
+        android:layout_width="290dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="13sp"
+        android:textStyle="bold"/>
 
     <!--string name="hello_twitter">Hello Twitter</string-->
 
